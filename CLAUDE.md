@@ -1,6 +1,7 @@
 # CLAUDE.md - Madison Alder Blog Aggregator
 
 **Project**: Madison Common Council Blog Aggregator
+**Repository**: https://github.com/jfreyna/madison-alder-blogs
 **Event**: AI Coding Tools Demo Night (January 29, 2026)
 **Tech Stack**: TypeScript + React + Vite + shadcn/ui + GitHub Actions
 **Architecture**: Git-scraping (no backend database)
@@ -13,6 +14,22 @@
 Build a lightweight, **open-source** blog aggregator for Madison Common Council members (alders) using the **git-scraping pattern**. All data lives in version control, no vendor lock-in, free forever hosting. This is civic tech - it should be transparent, forkable, and maintainable by the community.
 
 **Why This Matters**: The City of Madison used to provide this service but discontinued it. We're filling the gap with modern web tools and open source principles.
+
+---
+
+## Current Project Status
+
+**✅ Completed:**
+- Vite + React + TypeScript environment setup
+- Source Sans 3 font integration (Google Fonts)
+- Basic project structure with Hello World page
+- Git repository initialized and pushed to GitHub
+- Dev server running on http://localhost:5173/
+
+**📋 Next Steps:**
+- Create Product Requirements Prompt (PRP) with development phases
+- Define visual deliverables for each phase
+- Begin implementation of blog aggregator features
 
 ---
 
@@ -671,7 +688,7 @@ import path from 'path';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/alder-aggregator/', // Replace with your repo name
+  base: '/madison-alder-blogs/', // GitHub Pages base path
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
