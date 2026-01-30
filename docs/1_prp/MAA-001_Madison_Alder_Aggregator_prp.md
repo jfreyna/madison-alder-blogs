@@ -1,4 +1,4 @@
-# AA-001: Madison Alder Blog Aggregator - Product Requirements Prompt
+# MAA-001: Madison Alder Blog Aggregator - Product Requirements Prompt
 
 **Project**: Madison Common Council Blog Aggregator
 **Repository**: https://github.com/jfreyna/madison-alder-blogs

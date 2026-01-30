@@ -1,10 +1,16 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HomePage } from './pages/HomePage';
+import { PreviewPage } from './pages/PreviewPage';
+
 function App() {
   return (
-    <div className="container">
-      <h1>Hello World</h1>
-      <p>Madison Alder Blog Aggregator</p>
-    </div>
-  )
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/preview" element={<PreviewPage />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
